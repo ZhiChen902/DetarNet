@@ -4,5 +4,5 @@
 <!-- [[arXiv]](https://arxiv.org) -->
 
 ## Overview
-![](misc/pipeline.pdf)
+![](misc/pipeline.png)
 
