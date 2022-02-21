@@ -1,6 +1,5 @@
 # DeTARNet
-DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration
-# JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds
+# DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration
 
 <!-- [[arXiv]](https://arxiv.org) -->
 
