@@ -9,3 +9,10 @@ First, a Siamese Network based Progressive and Coherent Feature Drift (PCFD) mod
 Experimental results demonstrate that the proposed DetarNet improves registration performance on both indoor and outdoor scenes.
 ![](misc/pipeline.png)
 
+## Configuration
+The code has been tested with Python 3.6 on Ubuntu 16.04. The cuda version we use is CUDA10.2.
+If you are using conda, you may configure DetarNet as:
+``` bash
+conda create -n DetarNet python=3.6
+pip install -r requirements.txt
+source activate DetarNet
