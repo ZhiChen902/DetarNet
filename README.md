@@ -17,3 +17,6 @@ pip install -r requirements.txt
 ```
 
 ## Data and Model
+Download the processed Sun3d, KITTI and 7scenes datasets.
+
+Download the [pretrained models](https://drive.google.com/file/d/1qudc_K96yDDXUlFAWe_6PtreXz-vxC6E/view?usp=sharing) for Sun3d and KITTI datasets.
