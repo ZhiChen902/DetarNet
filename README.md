@@ -12,7 +12,6 @@ Experimental results demonstrate that the proposed DetarNet improves registratio
 ## Requirements
 
 All the experiments are conducted on a machine with an INTEL Xeon E5-2620 CPU and a single NVIDIA GTX1080Ti. The cuda version is 10.2. To prepare the required libraries, you can run the follows code:
-
-'''
-  pip install -r requirements.txt
-'''
+``` bash
+pip install -r requirements.txt
+```
