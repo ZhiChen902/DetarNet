@@ -174,7 +174,8 @@ def test_process(mode, sess, data, cur_global_step, summary_writer, config, xin1
         print("[{}] {}: Start validating\n".format(config.data_te, time.asctime()))
 
     suffix_tr = config.log_dir
-    res_dir_tr = os.path.join(config.res_dir, suffix_tr, "test_result_KITTI")
+    result_file_name = "result_" + config.data_te
+    res_dir_tr = os.path.join(config.res_dir, suffix_tr, result_file_name)
     if not os.path.exists(res_dir_tr):
         os.makedirs(res_dir_tr)
     # ----------------------------------------
