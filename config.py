@@ -22,13 +22,13 @@ data_arg.add_argument(
 
 
 data_arg.add_argument(
-    "--data_tr", type=str, default="train_7scenes_2", help=""
+    "--data_tr", type=str, default="sun3d", help=""
     "name of the dataset for train")
 data_arg.add_argument(
-    "--data_va", type=str, default="train_data", help=""
+    "--data_va", type=str, default="sun3d", help=""
     "name of the dataset for valid")
 data_arg.add_argument(
-    "--data_te", type=str, default="unknown_data_kitti", help=""
+    "--data_te", type=str, default="sun3d", help=""
     "name of the dataset for test")
 
 
