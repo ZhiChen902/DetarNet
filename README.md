@@ -47,4 +47,7 @@ Test the pretrained model on 7scenes dataset:
 ```
 python main.py --data_te=7scenes --run_mode=test --log_dir=sun3d_model
 ```
+<!-- LICENSE -->
+## License
 
+Our code is distributed under the MIT License. See `LICENSE` file for more information.
