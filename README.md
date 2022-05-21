@@ -26,3 +26,8 @@ Train the model on Sun3d dataset:
 ```
 python --data_tr=sun3d --log_dir=[NAME] 
 ```
+
+Train the model on KITTI dataset:
+```
+python --data_tr=KITTI --log_dir=[NAME] 
+```
