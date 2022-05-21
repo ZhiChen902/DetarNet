@@ -32,7 +32,7 @@ Train the model on KITTI dataset:
 python main.py --data_tr=KITTI --run_mode=train --log_dir=[NAME] 
 ```
 
-## Training
+## Testing
 Test the pretrained model on Sun3d dataset:
 ```
 python main.py --data_te=sun3d --run_mode=test --log_dir=sun3d_model
