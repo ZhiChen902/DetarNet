@@ -24,10 +24,27 @@ Download the [pretrained models](https://drive.google.com/file/d/1qudc_K96yDDXUl
 ## Training
 Train the model on Sun3d dataset:
 ```
-python --data_tr=sun3d --log_dir=[NAME] 
+python main.py --data_tr=sun3d --run_mode=train --log_dir=[NAME] 
 ```
 
 Train the model on KITTI dataset:
 ```
-python --data_tr=KITTI --log_dir=[NAME] 
+python main.py --data_tr=KITTI --run_mode=train --log_dir=[NAME] 
 ```
+
+## Training
+Test the pretrained model on Sun3d dataset:
+```
+python main.py --data_te=sun3d --run_mode=test --log_dir=sun3d_model
+```
+
+Test the pretrained model on KITTI dataset:
+```
+python main.py --data_te=KITTI --run_mode=test --log_dir=kitti_model
+```
+
+Test the pretrained model on 7scenes dataset:
+```
+python main.py --data_te=7scenes --run_mode=test --log_dir=sun3d_model
+```
+
