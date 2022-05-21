@@ -51,3 +51,23 @@ python main.py --data_te=7scenes --run_mode=test --log_dir=sun3d_model
 ## License
 
 Our code is distributed under the MIT License. See `LICENSE` file for more information.
+
+## Citation
+```bibtex
+@article{chen2021detarnet,
+  title={DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration},
+  author={Chen, Zhi and Yang, Fan and Tao, Wenbing},
+  journal={arXiv preprint arXiv:2112.14059},
+  year={2021}
+}
+```
+
+## Acknowledgments
+
+Our code follows several awesome repositories. We appreciate them for making their codes available to public.
+
+* [3DRegNet](https://github.com/goncalo120/3DRegNet)
+* [PointDSC](https://github.com/XuyangBai/PointDSC)
+* [DGR](https://github.com/chrischoy/DeepGlobalRegistration)
+
+
